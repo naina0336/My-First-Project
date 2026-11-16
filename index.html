@@ -1,1 +1,253 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahreem Fatime | Robot Artist</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #10152c;
+            color: white;
+        }
+
+        header {
+            background: #191f3d;
+            padding: 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #55e6ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #55e6ff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #202c60, #512b81);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero span {
+            color: #55e6ff;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin: 15px auto;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #55e6ff;
+            color: #10152c;
+            padding: 14px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 65px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #55e6ff;
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            background: #202849;
+            padding: 30px;
+            border-radius: 18px;
+            width: 280px;
+            border: 1px solid #39466f;
+        }
+
+        .card .emoji {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #55e6ff;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .contact p {
+            line-height: 2;
+        }
+
+        footer {
+            background: #191f3d;
+            padding: 22px;
+            text-align: center;
+            color: #b8c4e8;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            header {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Tahreem's World 🤖</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#art">My Art</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Hello, I'm <span>Tahreem Fatime!</span></h1>
+
+        <p>
+            Welcome to my creative world!
+            I am an artist who loves robots,
+            creativity, technology and imagination.
+        </p>
+
+        <a href="#about" class="btn">Discover My World</a>
+    </div>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Tahreem Fatime.
+            I am an artist and a creative thinker.
+            I love designing robots, exploring technology
+            and turning my ideas into amazing projects.
+            My dream is to create something special
+            that can make the world better!
+        </p>
+    </section>
+
+    <section id="art">
+        <h2>My Robot Art</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <div class="emoji">🤖</div>
+                <h3>My Robot Designs</h3>
+                <p>Creative robot ideas made with imagination.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🎨</div>
+                <h3>My Artwork</h3>
+                <p>Beautiful art and creative designs.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">⚙️</div>
+                <h3>Future Robots</h3>
+                <p>My ideas for amazing robots of the future.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <div class="emoji">🚜</div>
+                <h3>My Best Robot Helper</h3>
+                <p>A helpful robot designed to assist with farming.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">💻</div>
+                <h3>Creative Technology</h3>
+                <p>Exploring coding, AI and robotics.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's Explore Creativity!</h2>
+        <p>
+            Thank you for visiting my website.
+            Keep creating, keep imagining and keep learning!
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Tahreem Fatime | My Creative World</p>
+    </footer>
+
+</body>
+</html>
+
