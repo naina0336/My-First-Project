@@ -1,195 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tahreem Fatima | Nature & Robot Artist</title>
-
-<style>
-    .logo-box {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.logo {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%; /* Makes the logo a neat circle */
-    object-fit: cover;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tahreem Fatima | Nature & Robot Artist</title>
-<link rel="icon" type="image/png" href="images/logo.png">
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-    .card img {
-    width: 100%; 
-    height: 180px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 15px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: #ffffff;
-    color: white;
-}
-
-header {
-    background: #228b22;
-    padding: 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-header h2 {
-    color: #ffffff;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ffd700;
-}
-
-.hero {
-    text-align: center;
-    padding: 110px 20px;
-    background: linear-gradient(135deg, #171717, #38300b);
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero span {
-    color: #ffd700;
-}
-
-.hero p {
-    font-size: 19px;
-    line-height: 1.7;
-    max-width: 650px;
-    margin: auto;
-}
-
-.btn {
-    display: inline-block;
-    background: #ffd700;
-    color: black;
-    padding: 14px 28px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 25px;
-}
-
-section {
-    padding: 70px 20px;
-    text-align: center;
-}
-
-section h2 {
-    color: #ffd700;
-    font-size: 32px;
-    margin-bottom: 25px;
-}
-
-.about p {
-    max-width: 700px;
-    margin: auto;
-    line-height: 1.9;
-    font-size: 17px;
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(3, 280px);
-    justify-content: center;
-    gap: 25px;
-}
-
-.card {
-    background: #202020;
-    padding: 30px;
-    border-radius: 18px;
-    width: 280px;
-    border: 1px solid #75620c;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-    border-color: #ffd700;
-}
-
-.emoji {
-    font-size: 55px;
-    margin-bottom: 15px;
-}
-
-.card h3 {
-    color: #ffd700;
-    margin-bottom: 12px;
-}
-
-.card p {
-    line-height: 1.7;
-}
-
-.contact p {
-    line-height: 2;
-}
-
-footer {
-    background: #050505;
-    padding: 25px;
-    text-align: center;
-    color: #ffd700;
-}
-
-@media(max-width:600px) {
-    .hero h1 {
-        font-size: 34px;
-    }
-
-    header {
-        justify-content: center;
-        gap: 15px;
-    }
-
-    nav {
-        text-align: center;
-    }
-}
-</style>
+    
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon for your browser tab -->
+    <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 
 <body>
 
 <header>
-    <!-- PUT YOUR LOGO CODE RIGHT HERE -->
     <div class="logo-box">
         <img src="images/logo.png" alt="Tahreem's World Logo" class="logo">
         <h2>Tahreem's World</h2>
     </div>
 
     <nav>
-        <!-- Your links are here -->
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#art">My Art</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
@@ -215,12 +51,10 @@ footer {
     </p>
 </section>
 
-
 <section id="art">
     <h2>🎨 My Art Gallery</h2>
 
     <div class="projects">
-
         <div class="card">
             <img src="images/nature1.jpg" alt="Nature 1">
             <h3>Nature Art 1</h3>
@@ -256,10 +90,8 @@ footer {
             <h3>Robot Design 3</h3>
             <p>My world of technology and robots.</p>
         </div>
-
     </div>
 </section>
-
 
 <section id="projects">
     <h2>⚙️ My Projects</h2>
@@ -284,10 +116,8 @@ footer {
 </section>
 
 <footer>
-    <p>© 2026 Tahreem Fatime | Nature • Art • Robots</p>
+    <p>© 2026 Tahreem Fatima | Nature • Art • Robots</p>
 </footer>
 
 </body>
 </html>
-
-
