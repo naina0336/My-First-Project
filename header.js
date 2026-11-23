@@ -1,6 +1,8 @@
 
+
 document.getElementById("header").innerHTML = `
-<header>
+<header style="background-color: #F8DCE8;">
+
     <div class="logo-box">
         <img src="images/logo.png" alt="Tahreem's World Logo" class="logo">
         <h2>Tahreem's World</h2>
@@ -13,6 +15,6 @@ document.getElementById("header").innerHTML = `
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
     </nav>
+
 </header>
 `;
-
