@@ -4,7 +4,7 @@ const favicon = document.createElement("link");
 
 favicon.rel = "icon";
 favicon.type = "image/png";
-favicon.href = "./images/Sweetbot.png";
+favicon.href = "./images/logo.png";
 
 // Remove old favicon
 document.querySelectorAll("link[rel*='icon']").forEach(icon => {
