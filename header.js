@@ -40,3 +40,26 @@ document.getElementById("header").innerHTML = `
 
 </header>
 `;
+
+// Floating WhatsApp Button
+const whatsapp = document.createElement("a");
+
+whatsapp.href = "https://wa.me/PARENT_APPROVED_NUMBER";
+whatsapp.target = "_blank";
+whatsapp.rel = "noopener noreferrer";
+whatsapp.innerHTML = "☏ WhatsApp";
+
+whatsapp.style.position = "fixed";
+whatsapp.style.bottom = "25px";
+whatsapp.style.right = "25px";
+whatsapp.style.backgroundColor = "#25D366";
+whatsapp.style.color = "white";
+whatsapp.style.padding = "14px 22px";
+whatsapp.style.borderRadius = "50px";
+whatsapp.style.textDecoration = "none";
+whatsapp.style.fontWeight = "bold";
+whatsapp.style.fontSize = "16px";
+whatsapp.style.zIndex = "9999";
+whatsapp.style.boxShadow = "0 4px 10px rgba(0,0,0,0.2)";
+
+document.body.appendChild(whatsapp);
